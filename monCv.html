@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="monCv.css">
+  <script src="raphael-2.1.4.min.js"></script>
+  <script src="justgage.js"></script>
+  <title>mon cv</title>
+</head>
+<body>
+  <h1>Curiculum Vitae</h1><br>
+  <ul id="nav">
+    <li><a href="#infos">Infos</a></li>
+    <li><a href="#mesLiens">Mes liens</a></li>
+    <li><a href="#logiciels">Compétences</a></li>
+    <li><a href="#experiences">Expériences</a></li>
+    <li><a href="#hobbits">Loisirs</a></li>
+  </ul>
+  <div id="Conteneur1">
+    <div id="infos">
+      <h2 id="hInfos">Mes infos</h2>
+      <ul>
+        <li>Guillaume Le Bot</li><br>
+        <li>02480 Sommette Eaucourt</li><br>
+        <li>06 59 26 55 70</li><br>
+        <li>39 ans Marié 1 enfant</li><br>
+        <li><a href="mailto:guillaume.lebot@free.fr">cont@ctez_moi</a></li>
+      </ul>
+    </div>
+    <img src="photo.jpeg" alt="ma photo de ma tête" id="myself">
+    <div id="mesLiens">
+      <h2 id="hLiens">Mes liens</h2>
+      <ul>
+        <li><a href="https://github.com/guillaume-L"target="blank">github</a></li><br>
+        <li><a href="https://www.linkedin.com/in/guillaume-lebot-2a1635138?trk=hp-identity-name"target="blank">Visitez mon profil Linkelin</a></li><br>
+        <li><a href="https://www.codecademy.com/fr/guihome02"target="blank">visitez mon profil codecademy</a></li><br>
+        <li><a href="https://openclassrooms.com/membres/lebotguillaume1"target="blank">Visitez mon profil openclassroom</a></li>
+      </ul>
+    </div>
+  </div>
+  <h2 id="logiciels">Logiciels et Applications</h2>
+  <div id="conteneur2">
+    <div id="linux" >
+      <script >
+      var jauge1 = new JustGage({
+        id: "linux",
+        value: 15,
+        min: 0,
+        max: 100,
+        title: "Linux"
+      });
+      </script>
+    </div>
+    <div id="lignesDeCommandes" >
+      <script>
+      var jauge2 = new JustGage({
+        id: "lignesDeCommandes",
+        value: 10,
+        min: 0,
+        max: 100,
+        title: "Lignes de commandes"
+      });
+      </script>
+    </div>
+    <div id="nano" >
+      <script>
+      var jauge3 = new JustGage({
+        id: "nano",
+        value: 10,
+        min: 0,
+        max: 100,
+        title: "Nano"
+      });
+      </script>
+    </div>
+    <div id="github" >
+      <script>
+      var jauge4 = new JustGage({
+        id: "github",
+        value: 10,
+        min: 0,
+        max: 100,
+        title: "Git-github"
+      });
+      </script>
+    </div>
+    <div id="atom" >
+      <script>
+      var jauge5 = new JustGage({
+        id: "atom",
+        value: 10,
+        min: 0,
+        max: 100,
+        title: "Atom"
+      });
+      </script>
+    </div>
+    <div id="gimp">
+      <script>
+      var jauge6 = new JustGage({
+        id: "gimp",
+        value: 10,
+        min: 0,
+        max: 100,
+        title: "Gimp"
+      });
+      </script>
+    </div>
+  </div>
+  <h2 id="languages">Languages et serveurs</h2>
+  <div id="conteneur3">
+
+    <div id="html">
+      <script>
+      var jauge7 = new JustGage({
+        id: "html",
+        value: 10,
+        min: 0,
+        max: 100,
+        title: "Html5"
+      });
+      </script>
+    </div>
+    <div id="css">
+      <script>
+      var jauge8 = new JustGage({
+        id: "css",
+        value: 10,
+        min: 0,
+        max: 100,
+        title: "CSS3"
+      });
+      </script>
+    </div>
+    <div id="php">
+      <script>
+      var jauge9 = new JustGage({
+        id: "php",
+        value: 10,
+        min: 0,
+        max: 100,
+        title: "PHP"
+      });
+      </script>
+    </div>
+    <div id="apache">
+      <script>
+      var jauge10 = new JustGage({
+        id: "apache",
+        value: 10,
+        min: 0,
+        max: 100,
+        title: "Apache"
+      });
+      </script>
+    </div>
+    <div id="vhost">
+      <script>
+      var jauge11 = new JustGage({
+        id: "vhost",
+        value: 10,
+        min: 0,
+        max: 100,
+        title: "VHOST"
+      });
+      </script>
+    </div>
+  </div>
+  <div id="experiences">
+    <h2 id="hExperiences">Expériences </h2>
+    <div class="policeExperiences">
+      <ul>
+        <li>Février 2017 à Aout 2017 => Formation de 6 mois à l'ecole <a href="http://formation.novei.fr/"target="blank">E2N </a>à noyon</li><br>
+        <li>Juillet 2015 à Mai 2016 => magasinier cariste sarl visery Ribécourt</li><br>
+        <li>Janvier 2013 à Avril 2015 => artisan plombier chauffagiste </li><br>
+        <li>2011 à 2012 => technicien de maintenance chauffage sarl Ciepiela et Bertranuc Margny les Compiègne</li><br>
+        <li>2003 à 2011 => employé administratif à l institut national de la propriété insdustrielle à Compiègne</li>
+      </ul>
+    </div>
+  </div>
+  <div id="conteneur4">
+    <div id="hobbits">
+      <h2 id="hHobbits">Loisirs</h2>
+      <div class="policeHobbits">
+        <figure>
+          <img src="moto1.jpg" alt="pictogramme d'une moto custom"title="moto custom" id="bike">
+          <figcaption>Aime et pratique la moto custom</figcaption>
+          <img src="de20.jpg" alt="image d un dé à 20 faces"title="dés à 20 faces"id="dice">
+          <figcaption>Pratique le jeu de rôle sur table</figcaption>
+          <img src="ordinateur.jpg" alt="ordinateur"title="ordinateur" id="computer">
+          <figcaption>Passionné par l informatique, les nouvelles technologies et la programmation</figcaption>
+        </figure>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
