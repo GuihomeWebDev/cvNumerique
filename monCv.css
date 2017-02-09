@@ -7,7 +7,6 @@ body{
   background-image:-webkit-linear-gradient(45deg, #261758, #615192 );
   background-image:-o-linear-gradient(45deg, #261758, #615192 );
   background-image:linear-gradient(90deg, #261758, #615192);
-  font-family: cursive;
 }
 a{
   color: #260339;
@@ -32,7 +31,7 @@ h1{
 #nav {
 
   text-align: left;
-  font-size: 35px;
+  font-size: 30px;
   padding-top: 40px;
   margin-left: 20px;
   position: fixed;
@@ -52,7 +51,7 @@ ul{
 #Conteneur1{
   display: flex;
   justify-content:space-around;
-  padding-bottom: 200px;
+  padding-bottom: 300px;
   padding-top: 200px
 }
 #infos{
@@ -70,7 +69,7 @@ ul{
   display: flex;
   justify-content:center;
   padding-bottom: 100px;
-}
+  }
 #linux{
   border-radius:2;
   height:100px;
@@ -81,7 +80,7 @@ ul{
 #lignesDeCommandes{
   border-radius:2;
   height:100px;
-  width: 150px;
+  width: 250px;
 }
 #nano{
   border-radius:2;
@@ -137,8 +136,8 @@ ul{
 #experiences{
   border-radius: 20px;
   background-color: #D4B76A;
-  width: 600px;
-  height: 900px;
+  width: auto;
+  height: auto;
   text-align: left;
   font-weight: bold;
   font-size: 20px;
@@ -149,6 +148,13 @@ ul{
   font-weight: bold;
   font-size: 20px;
   color: #FFF0AA;
+  border-radius: 2px;
+  width: auto;
+  height: auto;
+  text-align: left;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: #806D15;
 }
 #hInfos{
   text-align: left;
@@ -166,7 +172,7 @@ ul{
   font-weight: bold;
   color: #808015;
   font-size: 40px;
-}
+  }
 #languages{
   text-align: center;
   font-weight: bold;
@@ -189,10 +195,9 @@ ul{
 #hHobbits{
   text-align: center;
   font-weight: bold;
-  color: #808015;
+  color: #FFFFAA;
   font-size: 40px;
-  padding-top: 300px;
-  padding-bottom: 40px;
+  padding-bottom: 200px;
 }
 .policeExperiences{
   font-family: "Indie Flower";
@@ -216,4 +221,10 @@ ul{
 #computer{
   height: auto;
   width: 10%;
+}
+dt{
+  font-family: cursive;
+  color: #555500;
+  font-size: 20px;
+  text-align: center;
 }

@@ -8,12 +8,12 @@
   <title>mon cv</title>
 </head>
 <body>
-  <h1>Curiculum Vitae</h1><br>
+  <h1 id="acceuil">Curiculum Vitae</h1><br>
   <ul id="nav">
-    <li><a href="#infos">Infos</a></li>
-    <li><a href="#mesLiens">Mes liens</a></li>
+    <li><a href="#acceuil">Acceuil</a></li>
+    <li><a href="#infos">Infos/Liens</a></li>
     <li><a href="#logiciels">Compétences</a></li>
-    <li><a href="#experiences">Expériences</a></li>
+    <li><a href="#hExperiences">Expériences</a></li>
     <li><a href="#hobbits">Loisirs</a></li>
   </ul>
   <div id="Conteneur1">
@@ -31,10 +31,12 @@
     <div id="mesLiens">
       <h2 id="hLiens">Mes liens</h2>
       <ul>
+        <li><a href="https://twitter.com/guillaumelebot"target="blank">twitter</a></li><br>
+        <li><a href="https://www.facebook.com/profile.php?id=100015234634045"target="blank">facebook</a></li><br>
         <li><a href="https://github.com/guillaume-L"target="blank">github</a></li><br>
-        <li><a href="https://www.linkedin.com/in/guillaume-lebot-2a1635138?trk=hp-identity-name"target="blank">Visitez mon profil Linkelin</a></li><br>
-        <li><a href="https://www.codecademy.com/fr/guihome02"target="blank">visitez mon profil codecademy</a></li><br>
-        <li><a href="https://openclassrooms.com/membres/lebotguillaume1"target="blank">Visitez mon profil openclassroom</a></li>
+        <li><a href="https://www.linkedin.com/in/guillaume-lebot-2a1635138?trk=hp-identity-name"target="blank">Linkelin</a></li><br>
+        <li><a href="https://www.codecademy.com/fr/guihome02"target="blank">Codecademy</a></li><br>
+        <li><a href="https://openclassrooms.com/membres/lebotguillaume1"target="blank">Openclassroom</a></li>
       </ul>
     </div>
   </div>
@@ -44,7 +46,7 @@
       <script >
       var jauge1 = new JustGage({
         id: "linux",
-        value: 15,
+        value: 30,
         min: 0,
         max: 100,
         title: "Linux"
@@ -55,7 +57,7 @@
       <script>
       var jauge2 = new JustGage({
         id: "lignesDeCommandes",
-        value: 10,
+        value: 20,
         min: 0,
         max: 100,
         title: "Lignes de commandes"
@@ -77,7 +79,7 @@
       <script>
       var jauge4 = new JustGage({
         id: "github",
-        value: 10,
+        value: 20,
         min: 0,
         max: 100,
         title: "Git-github"
@@ -88,7 +90,7 @@
       <script>
       var jauge5 = new JustGage({
         id: "atom",
-        value: 10,
+        value: 40,
         min: 0,
         max: 100,
         title: "Atom"
@@ -169,12 +171,17 @@
   <div id="experiences">
     <h2 id="hExperiences">Expériences </h2>
     <div class="policeExperiences">
-      <ul>
-        <li>Février 2017 à Aout 2017 => Formation de 6 mois à l'ecole <a href="http://formation.novei.fr/"target="blank">E2N </a>à noyon</li><br>
-        <li>Juillet 2015 à Mai 2016 => magasinier cariste sarl visery Ribécourt</li><br>
-        <li>Janvier 2013 à Avril 2015 => artisan plombier chauffagiste </li><br>
-        <li>2011 à 2012 => technicien de maintenance chauffage sarl Ciepiela et Bertranuc Margny les Compiègne</li><br>
-        <li>2003 à 2011 => employé administratif à l institut national de la propriété insdustrielle à Compiègne</li>
+      <dl>
+        <dt>Février 2017 à Aout 2017</dt><br>
+          <dd> Formation de 6 mois à l'ecole <a href="http://formation.novei.fr/"target="blank">E2N </a>à noyon</dd><br>
+        <dt>Juillet 2015 à Mai 2016 </dt><br>
+          <dd>Magasinier cariste sarl visery Ribécourt</dd><br>
+        <dt>Janvier 2013 à Avril 2015</dt><br>
+          <dd>Artisan plombier chauffagiste </dd><br>
+        <dt>2011 à 2012</dt><br>
+          <dd>Technicien de maintenance chauffage sarl Ciepiela et Bertranuc Margny les Compiègne</dd><br>
+        <dt>2003 à 2011</dt><br>
+          <dd>Employé administratif à l institut national de la propriété insdustrielle à Compiègne</dd><br>
       </ul>
     </div>
   </div>
@@ -184,11 +191,11 @@
       <div class="policeHobbits">
         <figure>
           <img src="moto1.jpg" alt="pictogramme d'une moto custom"title="moto custom" id="bike">
-          <figcaption>Aime et pratique la moto custom</figcaption>
+          <figcaption>Aime et pratique la moto custom</figcaption><br>
           <img src="de20.jpg" alt="image d un dé à 20 faces"title="dés à 20 faces"id="dice">
-          <figcaption>Pratique le jeu de rôle sur table</figcaption>
+          <figcaption>Pratique le jeu de rôle sur table</figcaption><br>
           <img src="ordinateur.jpg" alt="ordinateur"title="ordinateur" id="computer">
-          <figcaption>Passionné par l informatique, les nouvelles technologies et la programmation</figcaption>
+          <figcaption>Passionné par l informatique, les nouvelles technologies et la programmation</figcaption><br>
         </figure>
       </div>
     </div>

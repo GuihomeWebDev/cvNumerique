@@ -71,7 +71,7 @@ JustGage = function(config) {
 
     // titleFontColor : string
     // color of gauge title
-    titleFontColor: kvLookup('titleFontColor', config, dataset, "#999999"),
+    titleFontColor: kvLookup('titleFontColor', config, dataset, "#0a0a0a"),
 
     // titleFontFamily : string
     // color of gauge title
@@ -83,7 +83,7 @@ JustGage = function(config) {
 
     // valueFontColor : string
     // color of label showing current value
-    valueFontColor: kvLookup('valueFontColor', config, dataset, "#010101"),
+    valueFontColor: kvLookup('valueFontColor', config, dataset, "#ec0f0f"),
 
     // valueFontFamily : string
     // color of label showing current value
@@ -120,7 +120,7 @@ JustGage = function(config) {
 
     // gaugeColor : string
     // background color of gauge element
-    gaugeColor: kvLookup('gaugeColor', config, dataset, "#edebeb"),
+    gaugeColor: kvLookup('gaugeColor', config, dataset, "#e6e6f0"),
 
     // label : string
     // text to show below value
@@ -128,7 +128,7 @@ JustGage = function(config) {
 
     // labelFontColor : string
     // color of label showing label under value
-    labelFontColor: kvLookup('labelFontColor', config, dataset, "#b3b3b3"),
+    labelFontColor: kvLookup('labelFontColor', config, dataset, "#f26d0d"),
 
     // shadowOpacity : int
     // 0 ~ 1
@@ -144,7 +144,7 @@ JustGage = function(config) {
 
     // levelColors : string[]
     // colors of indicator, from lower to upper, in RGB format
-    levelColors: kvLookup('levelColors', config, dataset, ["#a9d70b", "#f9c802", "#ff0000"], 'array', ','),
+    levelColors: kvLookup('levelColors', config, dataset, ["#0b44d7", "#02f1f9", "#ff0000"], 'array', ','),
 
     // startAnimationTime : int
     // length of initial animation
@@ -172,19 +172,19 @@ JustGage = function(config) {
 
     // titleMinFontSize
     // absolute minimum font size for the title
-    titleMinFontSize: kvLookup('titleMinFontSize', config, dataset, 10),
+    titleMinFontSize: kvLookup('titleMinFontSize', config, dataset, 20),
 
     // labelMinFontSize
     // absolute minimum font size for the label
-    labelMinFontSize: kvLookup('labelMinFontSize', config, dataset, 10),
+    labelMinFontSize: kvLookup('labelMinFontSize', config, dataset, 15),
 
     // minLabelMinFontSize
     // absolute minimum font size for the minimum label
-    minLabelMinFontSize: kvLookup('minLabelMinFontSize', config, dataset, 10),
+    minLabelMinFontSize: kvLookup('minLabelMinFontSize', config, dataset, 15),
 
     // maxLabelMinFontSize
     // absolute minimum font size for the maximum label
-    maxLabelMinFontSize: kvLookup('maxLabelMinFontSize', config, dataset, 10),
+    maxLabelMinFontSize: kvLookup('maxLabelMinFontSize', config, dataset, 15),
 
     // hideValue : bool
     // hide value text
